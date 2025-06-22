@@ -1,0 +1,185 @@
+*{
+     font-family: "Poppins", sans-serif;
+     margin:0%;
+     padding:0%;
+  
+}
+body{
+    margin:0%;
+    padding: 0%;
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff,#EBDCFF);
+}
+.banner{
+    display: flex;
+    margin:100px auto 120px auto;
+    width: 87.5%;
+    border-radius: 40px;
+    border: 2px solid #872bff10;
+    padding:20px 30px;
+    background-image: url(images/hero-bg.png);
+    justify-content:space-between;
+    align-items: center;
+}
+.banner-content span{
+    color:#f411cf;
+}
+
+.banner-content{
+    width: 50%;
+}
+.banner-content p{
+    font-size: 18px;
+    font-weight: medium;
+    color: #a8a8a8;
+}
+.banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.btn{
+    background-color: #872bff;
+    border-radius: 30px;
+    padding:16px 32px;
+    color: white;
+    cursor: pointer;
+    margin: 0 20px;
+    border-color: #872bff;
+}
+.btn-demo{
+      /* background-color: #872bff; */
+    border-radius: 30px;
+    padding:16px 32px;
+    /* color: white; */
+    cursor: pointer;
+    margin: 0 20px;
+    border-color: #872bff;
+}
+.btn:hover{
+    background-color: aqua;
+    transform: scale(1.04);
+}
+.btn-demo:hover{
+    background-color: #f411cf ;
+    transform: scale(1.05);
+
+}
+.banner-content *{
+    margin-bottom: 20px;
+}
+.bannar-image img{
+    width: 600px;
+}
+
+.service{
+    width: 87.5%;
+    margin:0px auto 120px auto;
+}
+.service-content{
+    text-align: center;
+}
+.service-content h4{
+    color:#f411cf;
+    font-size: 24;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.service-content h2{
+    font-size: 44;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.service-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.card{
+    background-color: white;
+    padding: 60px;
+    text-align: center;
+    border-radius: 30px;
+    width: 350px;
+}
+.card img{
+    margin-bottom: 20px;
+}
+.card h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: semibold;
+}
+.card p{
+    color:#a8a8a8;
+
+}
+.info{
+    width: 87.5%;
+    margin:0px auto 120px auto;
+}
+.heading{
+    text-align: center;
+}
+.heading h4{
+    color: #f411cf;
+    font-size: 24;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+.heading h2{
+    font-size: 44;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.info-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.info-image{
+    margin: 30px;
+
+}
+.info-content h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.info-content img{
+    margin-bottom: 30px;
+}
+.info-content p{
+    margin-bottom:20px ;
+}
+.info-content button{
+     background-color: #872bff;
+    border-radius: 30px;
+    padding:16px 32px;
+    color: white;
+    cursor: pointer;
+    border-color: #872bff;
+}
+.info-content button:hover{
+    background-color: #f411cf;
+    transform: scale(1.05);
+}
+
+.coutry-name{
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.coutry-name h3{
+    background-color: white;
+    padding:40px;
+    border-radius: 30px;
+   
+}
